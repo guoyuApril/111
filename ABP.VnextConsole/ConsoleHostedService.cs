@@ -12,6 +12,7 @@ namespace ABP.VnextConsole
     /// <summary>
     /// 主机服务—ConsoleHostedService
     /// </summary>
+    //[Dependency(ServiceLifetime.Transient)]
     public class ConsoleHostedService : IHostedService
     {
         private readonly HelloWorldService _helloWorldService;

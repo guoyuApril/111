@@ -6,3 +6,6 @@
 *.v2 
 /ABP.VnextConsole/bin/Debug/net5.0
 /ABP.VnextConsole.Common/bin/Debug/net5.0
+/ABP.VnextConsole.Plugin/obj/Debug/net5.0
+/ABP.VnextConsole.Common/obj/Debug/net5.0
+/ABP.VnextConsole/obj/Debug/net5.0

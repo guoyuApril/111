@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using ABP.VnextConsole.Common;
+using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace ABP.VnextConsole
     public class ConsoleHostedService : IHostedService
     {
         private readonly HelloWorldService _helloWorldService;
-        //public Comm
+        public CommonService _commonService {get;set;}
         public ConsoleHostedService(HelloWorldService helloWorldService)
         {
             _helloWorldService = helloWorldService;
@@ -23,6 +24,7 @@ namespace ABP.VnextConsole
         public Task StartAsync(CancellationToken cancellationToken)
         {
             _helloWorldService.SayHelloWorld();
+            _commonService.CommonServiceStr();
             //cancellationToken.Common();
             return Task.CompletedTask;
         }

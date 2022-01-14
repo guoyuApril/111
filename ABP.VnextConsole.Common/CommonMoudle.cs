@@ -11,6 +11,7 @@ namespace ABP.VnextConsole.Common
     {
         public void Common()
         {
-            Console.WriteLine("Common..,方法执行");        }
+            Console.WriteLine("Common..,方法执行");     
+        }
     }
 }

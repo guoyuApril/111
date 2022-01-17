@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ABP.VnextConsole.Common\ABP.VnextConsole.Common.csproj" />
+    <ProjectReference Include="..\ABP.VnextConsole.Plugin\ABP.VnextConsole.Plugin.csproj" />
   </ItemGroup>
 
 </Project>

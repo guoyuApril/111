@@ -1,4 +1,5 @@
 ﻿using ABP.VnextConsole.Common;
+using ABP.VnextConsole.Plugin;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,9 @@ namespace ABP.VnextConsole
     /// </summary>
     [DependsOn(
         typeof(AbpAutofacModule),
+        //typeof(PluginMoudle), 
         typeof(CommonMoudle)
+       
      )]
     public class ConsoleMoudle : AbpModule
     {

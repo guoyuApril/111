@@ -10,8 +10,8 @@ namespace ABP.VnextConsole
 {
     /// <summary>
     /// 服务类
-    /// 第二种：新方法注入 /*: ITransientDependency*/
-    /// 第三种：新方法注入 /*: [Dependency(ServiceLifetime.Transient)]*/
+    /// 第二种：新方法注入 /*: ITransientDependency (继承接口)*/
+    /// 第三种：新方法注入 /*: [Dependency(ServiceLifetime.Transient)] (特性表示)*/
     /// </summary>
     [Dependency(ServiceLifetime.Transient)]
     public class HelloWorldService /*: ITransientDependency*/

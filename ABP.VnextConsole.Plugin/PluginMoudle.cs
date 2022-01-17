@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,10 +16,14 @@ namespace ABP.VnextConsole.Plugin
             Console.WriteLine("加载插件模块....");
         }
 
-
+        /// <summary>
+        /// Web 项目加载只使用该方法
+        /// </summary>
+        /// <param name="context"></param>
         public override void OnApplicationInitialization(ApplicationInitializationContext context)
         {
-           //var myService= context.ServiceProvider.GetRequest
+            var myService = context.ServiceProvider.GetRequiredService<PluginService>();
+            myService.Plugin();
         }
     }
 }

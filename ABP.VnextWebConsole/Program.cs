@@ -16,6 +16,11 @@ namespace ABP.VnextWebConsole
             CreateHostBuilder(args).Build().Run();
         }
 
+        /// <summary>
+        /// 原有的IOC容器注入
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>

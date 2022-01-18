@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABP.VnextConsole.Plugin", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C57D9CFC-BEC2-4A01-96F5-7F832976E271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABP.VnextWebConsole", "ABP.VnextWebConsole\ABP.VnextWebConsole.csproj", "{19FE0812-B52B-47ED-9A5C-26B3B896D433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABP.VnextWeb", "ABP.VnextWebConsole\ABP.VnextWeb.csproj", "{19FE0812-B52B-47ED-9A5C-26B3B896D433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABP.VnextWebCommon", "ABP.VnextWebCommon\ABP.VnextWebCommon.csproj", "{0E078D85-010D-474A-B33B-C99A79ED5788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABP.VnextWebCommon", "ABP.VnextWebCommon\ABP.VnextWebCommon.csproj", "{0E078D85-010D-474A-B33B-C99A79ED5788}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

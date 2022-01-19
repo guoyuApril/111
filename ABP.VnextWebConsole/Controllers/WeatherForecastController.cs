@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ABP.VnextConsole.Common;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,9 @@ namespace ABP.VnextWebConsole.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        public CommonService commonService { get; set; }
+
+
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {

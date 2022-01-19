@@ -17,3 +17,5 @@
 /ABP.VnextWebCommon/obj
 /ABP.VnextWebCommon/bin/Debug/net5.0
 /.vs/ABP.VnextConsole/v17
+/ABP.VnextConsole.Common/obj
+/ABP.VnextConsole.Plugin/obj
